@@ -1,4 +1,4 @@
-$ Edit Pods
+## Edit Pods
 
 A Note on Editing Existing Pods
 In any of the practical quizzes if you are asked to edit an existing POD, please note the following:
