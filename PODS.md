@@ -1,6 +1,6 @@
 ## Edit Pods
 
-If you are asked to edit an existing POD, please note the following:
+If you are asked to edit an existing POD:
 
 - If you are given a pod definition file, edit that file and use it to create a new pod.
 
