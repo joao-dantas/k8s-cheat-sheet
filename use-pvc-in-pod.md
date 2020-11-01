@@ -2,7 +2,7 @@ Using PVCs in PODs
 Once you create a PVC use it in a POD definition file by specifying the PVC Claim name under persistentVolumeClaim section in the volumes section like this:
 
 
-
+```
 apiVersion: v1
 kind: Pod
 metadata:
@@ -18,7 +18,7 @@ spec:
     - name: mypd
       persistentVolumeClaim:
         claimName: myclaim
-
+```
 
 The same is true for ReplicaSets or Deployments. Add this to the pod template section of a Deployment on ReplicaSet.
 
