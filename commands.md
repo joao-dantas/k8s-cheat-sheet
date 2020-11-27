@@ -1,5 +1,11 @@
 Tips on preparing for Certified Kubernetes Application Developer (CKAD)
 
+Aliases
+```
+export ns=default
+alias k='kubectl -n $ns' 
+alias kdr= 'kubectl -n $ns -o yaml --dry-run=client'.  # run commands in dry run mode and generate yaml.
+```
 Commands shared in the PPT
 ```
 kubectl run nginx --image=nginx   (deployment)
