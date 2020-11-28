@@ -20,3 +20,13 @@ kubectl expose deployment frontend --type=NodePort --name=frontend-service --por
 kubectl set serviceaccount deployment frontend myuser
 kubectl create service clusterip my-cs --tcp=5678:8080 --dry-run -o yaml
 ```
+
+Go into the pod:
+```
+kubectl exec -it pod-name -- sh
+```
+
+Test connection to another pod from a pod;
+```
+nc -z -v -w 1 secure-service 80
+```
